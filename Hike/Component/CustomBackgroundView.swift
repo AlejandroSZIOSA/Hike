@@ -13,13 +13,13 @@ struct CostomBackgroundView: View {
         //3- DEPTH
         
         //Card background
-        Color("ColorGreenDark")
+        Color.customGreenDark
           .cornerRadius(40)
           .offset(y:12)
         
         //2 -LIGHT
         //Colors name from the assets
-        Color("ColorGreenLight")
+        Color.customGreenLight
           .cornerRadius(40)
           .offset(y:3)
           .opacity(0.85)
@@ -28,8 +28,8 @@ struct CostomBackgroundView: View {
         //1- SURFACE
         LinearGradient(
           colors:[
-            Color("ColorGreenLight"),
-            Color("ColorGreenMedium")],
+            Color.customGreenLight,
+            Color.customGreenMedium],
           startPoint: .top,
           endPoint: .bottom
         )
