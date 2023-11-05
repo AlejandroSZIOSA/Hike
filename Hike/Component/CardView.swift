@@ -27,6 +27,15 @@ struct CardView: View {
                   startPoint:.top,
                   endPoint:.bottom)
               )
+              
+              //  Create a button
+              Button{
+                // ACTION :Show a Sheet
+                print("BTN was pressed!")
+              } label:{
+                Text("Button")
+              }
+            
             }
             Text("Fun and enjoyable outdoor activity for friends and families.")
               .multilineTextAlignment(.leading)
