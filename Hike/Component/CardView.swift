@@ -28,12 +28,15 @@ struct CardView: View {
                   endPoint:.bottom)
               )
               
+              Spacer()
+              
               //  Create a button
               Button{
                 // ACTION :Show a Sheet
                 print("BTN was pressed!")
               } label:{
-                Text("Button")
+                //insert the custom BTN :)
+                CustomBtnView()
               }
             
             }

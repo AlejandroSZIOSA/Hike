@@ -14,6 +14,7 @@
 		4B692C792AF6A43700AABB72 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B692C782AF6A43700AABB72 /* CardView.swift */; };
 		4B692C7F2AF7A30D00AABB72 /* CostomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B692C7E2AF7A30D00AABB72 /* CostomBackgroundView.swift */; };
 		4B692C842AF7AB9A00AABB72 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B692C832AF7AB9A00AABB72 /* ColorExtension.swift */; };
+		4B692C862AF7BE2400AABB72 /* CustomBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B692C852AF7BE2400AABB72 /* CustomBtnView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4B692C782AF6A43700AABB72 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4B692C7E2AF7A30D00AABB72 /* CostomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostomBackgroundView.swift; sourceTree = "<group>"; };
 		4B692C832AF7AB9A00AABB72 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		4B692C852AF7BE2400AABB72 /* CustomBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBtnView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				4B692C782AF6A43700AABB72 /* CardView.swift */,
 				4B692C7E2AF7A30D00AABB72 /* CostomBackgroundView.swift */,
+				4B692C852AF7BE2400AABB72 /* CustomBtnView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B692C862AF7BE2400AABB72 /* CustomBtnView.swift in Sources */,
 				4B692C6D2AF69D5900AABB72 /* ContentView.swift in Sources */,
 				4B692C7F2AF7A30D00AABB72 /* CostomBackgroundView.swift in Sources */,
 				4B692C792AF6A43700AABB72 /* CardView.swift in Sources */,
