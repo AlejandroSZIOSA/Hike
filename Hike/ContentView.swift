@@ -6,14 +6,10 @@
 //
 //
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Image("image-1")
-                .resizable()
-            .scaledToFit()
-        }
+      //Calling CardView :)
+        CardView()
     }
 }
 
